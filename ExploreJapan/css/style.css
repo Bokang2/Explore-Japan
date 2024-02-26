@@ -1,0 +1,145 @@
+/* stylings for website pages */
+
+body {
+    font-family: "Times New Roman", Georgia, Serif;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+
+/* navbar styling  */
+.top-navbar {
+    overflow: hidden;
+    border-bottom: 3px solid black;
+    padding: 8px 16px!important;
+    background-color: #FFFFFF;
+    letter-spacing:4px;
+    line-height: 1.5;
+    display: block;
+}
+
+.top-navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    width: 14%;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.top-navbar a:hover {
+    background-color: #ccc;
+    color: black;
+
+}
+
+.top-navbar a.active {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+/* homepage styling */
+.homepage-image{
+    width: 100%;
+    height: 800px;
+}
+.container .page-content{
+    font-family: "Times New Roman", Georgia, Serif;
+    float:right;
+    width:700px;
+}
+.container #last-paragraph{
+    padding-top: 40px;
+}
+
+/* general styling */
+.pushed-right, #about-header, #last-paragraph, #japan-map, #food-header, #culture-header, #fun-activities-header{
+    padding-left: 40px;
+}
+
+/* footer styling */
+.footer-sentence{
+    padding-left: 40px;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: grey;
+}
+
+/* homepage styling */
+.home-container .page-content{
+    font-family: "Times New Roman", Georgia, Serif;
+    float:right;
+    width:700px;
+
+}
+
+.home-container #home-image{
+    padding-left: 40px;
+    padding-bottom: 140px;
+    padding-top: 20px;
+    width: 640px;
+    height: 440px;
+}
+
+/* about page styling */
+#japan-map{
+    padding-right: 50px;
+    padding-bottom: 100px;
+}
+
+
+/* food styling */
+.food-container .page-content {
+    font-family: "Times New Roman", Georgia, Serif;
+    float:right;
+    width:700px;
+    padding-bottom: 40px;
+}
+
+.food-container #food-image{
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    width: 640px;
+    height: 440px;
+}
+
+
+/* culture styling */
+.culture-container .page-content{
+    font-family: "Times New Roman", Georgia, Serif;
+    float:right;
+    width:700px;
+
+}
+
+.culture-container #culture-image{
+    padding-left: 40px;
+    padding-bottom: 140px;
+    padding-top: 20px;
+    width: 640px;
+    height: 440px;
+}
+
+
+/* fun activities styling */
+.fun-activities-container .page-content{
+    font-family: "Times New Roman", Georgia, Serif;
+    float:right;
+    width:700px;
+}
+
+.fun-activities-container #fun-activities-image{
+    padding-left: 40px;
+    padding-bottom: 80px;
+    padding-top: 20px;
+    width: 640px;
+    height: 440px;
+}
+
+
+
